@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --color-p: #717171;
+    --color1: #4CAF4F;
+    --color12: #4D4D4D;
+    --color-footer: #263238;
+    --white-neutro: #F5F7FA;
+    --sec-one: #E0E0E0;
+    --font:  "Roboto", sans-serif;
+}
+
+body, html{
+    font-family: var(--font);
+}
+
+h1, h2, h3{
+    color: var(--color12);
+}
+
+p{
+    color: var(--color-p);
+}
+
+section{
+    padding: 30px 0px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0px;
+}
+
+nav ul li a{
+    color: var(--color12);
+}
+
+button{
+    padding: 10px 20px;
+    background-color: var(--color1);
+    border: none;
+    color: var(--white-neutro);
+    border-radius: 4px;
+}
+
+main .sec-one{
+    background-color: var(--white-neutro);
+    width: 100%;
+}
+
+main .sec-one .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 47px 0px;
+}
+
+main .sec-one .container .tex-sec-one{
+    width: 70%;
+}
+
+main .sec-one .container .img-sec-one{
+    width: 30%;
+}
+
+main .sec-one h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+main .sec-one p{
+    font-size: 11.14px;
+    padding: 20px 0px 30px 0px;
+}
+
+main .sec-one strong{
+    color: var(--color1);
+}
+
+main .sec-one div img{
+    width:100%;
+}

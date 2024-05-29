@@ -276,3 +276,103 @@ main .sec-six div img{
     width:100%;
 }
 
+main .sec-seven{
+    background-color: var(--white-neutro);
+}
+
+main .sec-seven .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .sec-seven .img-sec-seven{
+    width: 30%;
+}
+
+main .sec-seven .img-sec-seven img{
+    width: 100%;
+}
+
+main .sec-seven .text-sec-seven {
+    width: 65%;
+}
+
+main .sec-seven .text-sec-seven p, h3{
+    margin-bottom: 15px;
+}
+
+main .sec-seven .text-sec-seven h3, a{
+    color: var(--color1);
+    font-weight: 600;
+}
+
+main .sec-seven .text-sec-seven .logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .sec-height .container{
+    margin-bottom: 80px;
+}
+
+main .sec-height .container .text-sec-height{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .sec-height .container .text-sec-height p{
+    padding: 15px 0px;
+    max-width: 60%;
+}
+
+main .sec-height .container .text-sec-height h2{
+    font-size: 33px;
+    font-weight: 500;
+}
+
+main .sec-height .cards{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+main .sec-height .cards .card{
+    width: 32%;
+}
+
+main .sec-height .cards .card img{
+    width: 100%;
+}
+
+main .sec-height .cards .card div{
+    width: 270px;
+    text-align: center;
+    background-color: var(--white-neutro);
+    border-radius: 5px;
+    position: absolute;
+    top: 175px;
+    transform: translate(25px);
+    padding: 20px;
+    box-shadow: 2px 3px 10px 4px rgba(25, 77, 109, 0.199);
+}
+
+main .sec-height .cards .card div h3{
+    font-size: 18.5px;
+    color: var(--color-p);
+    font-weight: 500;
+}
+
+main .sec-nine {
+    text-align: center;
+    background-color: var(--white-neutro);
+}
+
+main .sec-nine h1{
+    font-size: 52.9px;
+    color: var(--color-footer);
+    padding: 20px 0px;
+}
+

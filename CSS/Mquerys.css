@@ -7,25 +7,145 @@ nav ul{
 main .sec-one .container{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     flex-direction: column-reverse;
 }
 
 .container{
-    max-width: 300px;
+    max-width: 400px;
+}
+
+section, footer{
+    padding: 15px;
+}
+
+p{
+    font-size: 11.14px;
+}
+
+button{
+    padding: 7px;
+    font-size: 10px;
+}
+
+
+main .sec-one .text-sec-one{
+    text-align: center;
+}
+
+main .sec-one .text-sec-one p{
+    padding: 10px 0px 15px 0px;
 }
 
 main .sec-one h1{
+    font-size: 25px;
+}
+
+main .sec-one .container .img-sec-one{
+   width: 70%;
+}
+
+main .sec-one .img-sec-one img {
+   width: 100%;
+   
+}
+
+main .sec-two .text-sec-two h2{
+    font-size: 20px;
+}
+
+main .sec-two .icons-sec-two{
+    padding: 0 20px;
+
+}
+
+main .sec-two .icons-sec-two img{
+    width: 20px;
+}
+
+main .sec-tree .container h2{
+    font-size: 20px;
+}
+
+main .sec-tree .container p{
+    margin: 5px 0px;
+}
+
+main .sec-tree .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .sec-tree .cards .card{
+    width: 90%;
+    padding: 0px;
+}
+
+main .sec-tree .cards .card h2{
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+main .sec-for .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .sec-for .container .tex-sec-for{
+    width: 100%;
+    text-align: center;
+}
+
+main .sec-for .container .img-sec-for{
+    width: 70%;
+}
+
+main .sec-for h2{
+    font-size: 20px;
+}
+
+main .sec-for .text-sec-for p{
+    padding: 7px 0px 10px 0px;
+}
+
+main .sec-five .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    text-align: center;
+}
+
+main .sec-five .container div{
+   width: 100%; 
+}
+
+main .sec-five .numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 0px;
+    padding: 0px 30px;
+}
+
+main .sec-five .numbers h2{
     font-size: 16px;
 }
 
-main .sec-one .img-sec-one img{
-    width:150px;
-    height: 100%;
+main .sec-five .numbers .icon{
+    display: flex;
+    gap: 0px;
 }
 
-main .sec-one .img-sec-one {
- width:100%
+main .sec-five .numbers .icon img{
+    width: 25px;
+    padding: 0px;
 }
 
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width:200px) and (max-width:700px) {
+@media screen and (min-width:360px) and (max-width:740px) {
   
 nav ul{
     display: none;
@@ -146,6 +146,149 @@ main .sec-five .numbers .icon{
 main .sec-five .numbers .icon img{
     width: 25px;
     padding: 0px;
+}
+
+main .sec-six .container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+main .sec-six .container .img-sec-six{
+    width: 70%;
+}
+
+main .sec-six .img-sec-six img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+main .sec-six .text-sec-six h2{
+    font-size: 20px;
+}
+
+main .sec-six .text-sec-six p{
+    max-width: 300px;
+    text-align: justify;
+    padding: 7px 0px 10px 0px;
+}
+
+main .sec-seven .container{
+    display: flex;
+    flex-direction: column;
+}
+
+main .sec-seven .container .img-sec-seven{
+    width: 70%;
+    margin: auto;
+}
+
+main .sec-seven .container .img-sec-seven img{
+    width: 100%;
+}
+
+main .sec-seven .text-sec-seven {
+    text-align: justify;
+    width: 100%;
+}
+
+main .sec-seven .text-sec-seven .logos img{
+    width: 20px;
+}
+
+main .sec-seven .text-sec-seven .logos a{
+    font-size: 10px;
+}
+
+main .sec-height .container {
+    text-align: center;
+}
+
+main .sec-height .container .text-sec-height h2{
+    font-size: 20px;
+}
+
+main .sec-height .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+main .sec-height .cards .card{
+    width: 100%;
+}
+
+main .sec-height .cards .card #div1{
+    width: 270px;
+    text-align: center;
+    background-color: var(--white-neutro);
+    border-radius: 5px;
+    position: absolute;
+    top: 175px;
+    transform: translate(25px);
+    padding: 20px;
+    box-shadow: 2px 3px 10px 4px rgba(28, 28, 28, 0.141);
+}
+
+main .sec-height .cards .card #div2{
+    width: 270px;
+    text-align: center;
+    background-color: var(--white-neutro);
+    border-radius: 5px;
+    position: absolute;
+    top: 530px;
+    transform: translate(25px);
+    padding: 20px;
+    box-shadow: 2px 3px 10px 4px rgba(28, 28, 28, 0.141);
+}
+
+main .sec-height .cards .card #div3{
+    width: 270px;
+    text-align: center;
+    background-color: var(--white-neutro);
+    border-radius: 5px;
+    position: absolute;
+    top: 890px;
+    transform: translate(25px);
+    padding: 20px;
+    box-shadow: 2px 3px 10px 4px rgba(28, 28, 28, 0.141);
+}
+
+main .sec-nine{
+    padding-bottom: 35px;
+}
+
+main .sec-nine h1{
+    font-size: 25px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .fot{
+    margin: auto;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .fot img{
+    margin-left: -20px;
+}
+
+footer .fot .fot-icons img{
+    width:30px;
+}
+
+footer #pute form input{
+    display: block;
+    margin: 30px auto 0px auto;
 }
 
 }

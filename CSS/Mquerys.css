@@ -1,5 +1,9 @@
 @media screen and (min-width:360px) and (max-width:740px) {
   
+body{
+    overflow-x: hidden;
+}
+
 nav ul{
     display: none;
 }
@@ -13,7 +17,7 @@ main .sec-one .container{
 }
 
 .container{
-    max-width: 400px;
+    max-width: 80%;
 }
 
 section, footer{

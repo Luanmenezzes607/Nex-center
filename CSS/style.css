@@ -363,7 +363,7 @@ main .sec-height .cards .card div{
 }
 
 main .sec-height .cards .card div h3{
-    font-size: 18.5px;
+    font-size: 1em;
     color: var(--color-p);
     font-weight: 500;
 }

@@ -8,6 +8,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 
 :root{
@@ -17,11 +18,9 @@
     --color-footer: #263238;
     --white-neutro: #F5F7FA;
     --sec-one: #E0E0E0;
-    --font:  "Roboto", sans-serif;
 }
 
 body, html{
-    font-family: var(--font);
     overflow-x: hidden;
 
 }
@@ -62,6 +61,24 @@ nav ul li a{
     color: var(--color12);
 }
 
+nav ul li a:hover{
+    color: #4CAF4F;
+}
+
+nav ul li a::after{
+    content: "";
+    background-color:#263238;
+    height: 3px;
+    width: 0px;
+    display: block;
+    transition: .3s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+    margin: 0px auto;
+}
+
 button{
     padding: 15px 30px;
     background-color: var(--color1);
@@ -69,6 +86,13 @@ button{
     color: var(--white-neutro);
     border-radius: 4px;
     cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: var(--color-footer);
+    color: #53f058;
+    transform: translate(0px, -2px);
 }
 
 main .sec-one{
@@ -324,6 +348,7 @@ main .sec-height .container .text-sec-height{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 main .sec-height .container .text-sec-height p{
@@ -352,6 +377,7 @@ main .sec-height .cards .card img{
 
 main .sec-height .cards .card div{
     width: 270px;
+    height: 140px;
     text-align: center;
     background-color: var(--white-neutro);
     border-radius: 5px;
@@ -366,6 +392,10 @@ main .sec-height .cards .card div h3{
     font-size: 1em;
     color: var(--color-p);
     font-weight: 500;
+}
+
+main .sec-height .cards .card div #div3 a{
+  color: #263238;
 }
 
 main .sec-nine {
@@ -414,7 +444,7 @@ footer .fot .fot-icons img{
     width: 40px;
     padding: 7px;
     background-color: rgba(128, 128, 128, 0.573);
-    border-radius:100% ;
+    border-radius: 7px ;
 }
 
 footer div ul li{
@@ -435,4 +465,13 @@ footer div form input::placeholder{
     color: var(--white-neutro);
 }
 
+footer div form #enviar{
+    width: 60px;
+    background-color: #4CAF4F;
+    cursor: pointer;
+}
+
+footer div form #enviar:active{
+    background-color: #53f058;
+}
 

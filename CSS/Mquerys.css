@@ -233,18 +233,16 @@ main .sec-height .cards .card{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 main .sec-height .cards .card img{
-    width: 50%;
+    width: 90%;
 }
 
 main .sec-height .cards .card div{
-    position: relative;
-    width: 50%;
-    height:145px;
-    margin-top: -350px;
-    margin-right: 27px;
+    width: 70%;
 }
 
 main .sec-height .cards .card div h3, a{

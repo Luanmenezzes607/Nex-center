@@ -11,6 +11,11 @@
 <body>
     <header>
         <nav>
+            <div class="hamburguer" onclick="aparecer()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <img src="imagens/Logonav.svg" alt="">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -23,6 +28,16 @@
                     </li>
                 </ul>
         </nav>
+        <div class="menuMobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="sec-one">
@@ -239,5 +254,16 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function aparecer(){
+            var menu = document.querySelector(".menuMobile")
+            if(menu.classList.contains('menu')){
+                menu.classList.remove('menu')
+            }else{
+                    menu.classList.add('menu')
+            }
+        }
+    </script>
 </body>
 </html>

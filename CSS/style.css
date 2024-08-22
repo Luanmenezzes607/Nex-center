@@ -79,6 +79,14 @@ nav ul li a:hover::after{
     margin: 0px auto;
 }
 
+.menuMobile{
+    display: none;
+}
+
+.hamburguer{
+    display: none;
+}
+
 button{
     padding: 15px 30px;
     background-color: var(--color1);

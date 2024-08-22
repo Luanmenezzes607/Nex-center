@@ -16,6 +16,41 @@ nav ul{
     display: none;
 }
 
+.menu{
+    height:100vh ;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #4caf4f
+}
+
+.menu ul li a{
+    color: #F5F7FA;
+    margin-bottom: 13px;
+    font-size: 25px;
+
+}
+
+.menu ul li{
+    margin: 50px 0px;
+}
+
+.menu ul li a:active{
+    color: black;
+}
+
+.hamburguer{
+    display: block;
+}
+
+nav .hamburguer div{
+    background-color: #4CAF4F;
+    width: 45px;
+    height: 5px;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
 main .sec-one .container{
     display: flex;
     align-items: center;
@@ -292,6 +327,10 @@ footer #pute form{
 }
 footer #pute h3{
     margin: 20px auto;
+}
+
+.menu{
+    display: block;
 }
 
 }
